@@ -52,3 +52,16 @@ var y = 24;
 
 console.log(x);
 console.log(y);
+
+//difference between null and undefined
+
+let l = null;//means null value is present 
+let m;//undefined -> means 'm' not contain any value 
+
+console.log(l,m);
+
+console.log(typeof(l));//Indicates absence of a value // type -> object
+
+console.log(typeof(m));//Explicitly assigned by the programmer.
+                      // Used to mean no value / empty / nothing
+
