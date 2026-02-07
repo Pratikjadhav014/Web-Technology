@@ -14,6 +14,9 @@ const esport = ["top","dok","rosemary"]
 
 const num = [1,2,3]
 
+const x = [1,"num",true];
+console.log(x);
+
 //object
 const obj = {
     fname : "js",

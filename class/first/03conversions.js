@@ -62,3 +62,8 @@ console.log(5+"2")//"52"  --String
 
 console.log("2"==2); // true -> because not check datatype
 console.log("2"==2);//false -> check dataype
+
+//BigInt
+let lm = 10n;
+console.log(lm);
+console.log(typeof(lm));
