@@ -4,6 +4,10 @@ let b = a.pop();
 console.log("remove element :"+b);
 console.log(a);
 
+//shift()
+sh = [1,2,3,4,5]
+sh.shift();
+console.log(sh);
 
 
 

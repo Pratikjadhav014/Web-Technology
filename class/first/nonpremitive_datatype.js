@@ -1,10 +1,3 @@
-//Symbol ex
-
-const anotherid = Symbol("123");
-console.log(anotherid,typeof(anotherid));
-
-const id = 123;
-console.log(id == anotherid);
 
 //js is dynamic
 

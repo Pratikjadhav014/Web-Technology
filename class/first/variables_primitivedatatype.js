@@ -1,6 +1,5 @@
 
 //datatypes
-
 //primitive datatypes
 let a = 10;
 console.log(a);
@@ -27,12 +26,22 @@ console.log(f);
 console.log(typeof(f));
 
 let g = 212345678900987654n;
-console.log(d);
-console.log(typeof(d));
+console.log(g);
+console.log(typeof(g));
 
 let h = Symbol("x");
-console.log(d);
-console.log(typeof(d));
+console.log(h);
+console.log(typeof(h));
+
+//exmaple of symbol
+
+const anotherid = Symbol(123);
+console.log(anotherid,typeof(anotherid));
+
+const id = 123;
+console.log(id == anotherid);//symbol is speacial type ans->false
+//"123"==123 js convert "123" string to number then compare
+//thats why ans->true 
 
 //const
 //const a = 12;// if you redclare the const varible return the error,because const varible value initilize only once.
@@ -62,6 +71,5 @@ console.log(l,m);
 
 console.log(typeof(l));//Indicates absence of a value // type -> object
 
-console.log(typeof(m));//Explicitly assigned by the programmer.
-                      // Used to mean no value / empty / nothing
+console.log(typeof(m));// Used to mean no value / empty / nothing
 
