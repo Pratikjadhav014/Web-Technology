@@ -1,0 +1,82 @@
+/* remove default browser spacing*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* center content on screen*/
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f2f2f2;
+    font-family: Arial,sans-serif;
+
+}
+
+/*main container styling */
+.container
+{
+    text-align: align;
+}
+
+/* style input field*/
+#movieInput
+{
+    width: 250px;
+    padding: 10px;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/*style search button */
+#searchBtn
+{
+    padding: 10px 15px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007BFF;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    
+}
+
+/* button hover effect */
+#searchBtn:hover{
+    background-color: #0056b3;
+}
+
+/* Movie card styling */
+.movie-card {
+    background-color: #ffffff;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+/* Movie poster image */
+.movie-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* Movie title */
+.movie-card h2 {
+    margin: 10px 0;
+}
+
+/* Movie details text */
+.movie-card p {
+    margin: 5px 0;
+}
