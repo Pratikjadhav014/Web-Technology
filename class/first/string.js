@@ -1,8 +1,8 @@
-let str1 = "haris";
+let str1 = "pratik";
 console.log(typeof(str1));
 
 //string interpolation 
-console.log(`hello my name ${"pratik"}`);
+console.log(`hello my name ${str1}`);
 
 const gameCount = new String("neyoo");
 
@@ -10,10 +10,10 @@ const gameCount = new String("neyoo");
 console.log(gameCount.length);
 
 //convert to lower case
-console.log(gameCount.toLowerCase);
+console.log(gameCount.toLowerCase());
 
 //convert to upper case
-console.log(gameCount.toUpperCase);
+console.log(gameCount.toUpperCase());
 
 //find character at index
 console.log(gameCount.charAt(2));

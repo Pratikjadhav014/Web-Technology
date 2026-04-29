@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Dashboard</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1>Personal Dashboard</h1>
+        <div id="clock">00:00:00</div>
+    </header>
+
+    <section id="todo-section">
+        <h2>To-Do List</h2>
+        <input type="text" id="todo-input" placeholder="Add a new task">
+        <button id="add-todo-btn">Add Task</button>
+        <ul id="todo-list"></ul>
+    </section>
+    <section id="notes-section">
+        <h2>Notes</h2>
+        <textarea id="note-input" placeholder="Write your note here..." rows="4" cols="40"></textarea>
+        <button id="add-note-btn">Add Note</button>
+        <ul id="notes-list"></ul>
+    </section>
+    <script src="script.js"></script>
+</body>
+
+</html>

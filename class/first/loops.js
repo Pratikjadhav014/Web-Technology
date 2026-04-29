@@ -18,7 +18,7 @@ for(let l in a)
 }
 
 //for __ of loop
-//-same as like forEach loop(not need of increment decrement
+//-same as like forEach loop of java (not need of increment decrement
 // operators and condition),used to access array
 
 b = [1,2,3,4];

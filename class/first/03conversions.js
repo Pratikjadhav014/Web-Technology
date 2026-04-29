@@ -60,7 +60,7 @@ console.log(Boolean(undefined));//false
 console.log("5"+2);//"52" --String
 console.log(5+"2")//"52"  --String
 
-console.log("2"==2); // true -> because not check datatype
+console.log("2"==2); // true -> because not check datatype(check only value)
 console.log("2"==2);//false -> check dataype
 
 //BigInt

@@ -20,7 +20,7 @@ console.log("10" > "5")//false --Both strings → compare ASCII values of string
 console.log(false == 0);//true -- not check datatype
 console.log(false === 0);//false -- 
 
-//NaN Comparisons
+//NaN Comparisons(unique)
 
 console.log(NaN == NaN);//false --NaN is never equal to anything, even itself.
 

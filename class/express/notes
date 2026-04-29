@@ -1,0 +1,28 @@
+-express is a minimal and and flexible web application framework of node js which help to build backend server and API's
+
+-it provides features such as routing ,middleware support ,request and response handling.
+
+-templete rendering rest api creation.
+
+-node js works for only simple application . so for real life and complicated application we use express.js.
+
+
+## How to install express js?
+=> commands: 
+    npm init = npm initialization (first node js should be installed)
+    npm i express or npm install express = install all modules (contains package.json and package-lock.json)
+
+# Difference between package.json and package-lock.json
+# Difference between dependencies and dev dependencies.
+
+## routing in express
+- routing refers to determining how apllication response to the client request for a specific url and http methods.
+
+## componenets of routing path
+1. url part
+2. http methods
+3. handler function
+
+
+
+
